@@ -8,7 +8,9 @@ function initialize() {
     var mapOptions = {
       center: new google.maps.LatLng(44.5403, 1.5463),
       zoom: 12,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+      position: google.maps.ControlPosition.BOTTOM_CENTER
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     codeAddress('JAC. P Thijsseweg 13 2408 ER Alphen aan den rijn');

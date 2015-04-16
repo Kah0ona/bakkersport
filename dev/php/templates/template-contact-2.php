@@ -20,9 +20,9 @@ Template Name: Contactpage2
 
 <div class="product-container-contact">
 	<div id="map_canvas"></div>
-	<div class="adress2" >
+	<div class="" >
 		<div class="u-gridContainer">
-			<div clas="u-gridCol6">
+			<div class="u-gridCol6">
 				<h4>Adresgegevens</h4>
 				<p>BAKKERSPORT</p>
 				<p>Jac P Thuisseweg 13</p>
@@ -31,7 +31,7 @@ Template Name: Contactpage2
 				<p>Tel: +31 (0) 172234527</p>
 			</div>
 			<div class="u-gridCol6">
-				<div class="" style="padding:20px; color:white;">
+				<div class="" style="padding:20px;">
 					
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>						
 					<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>

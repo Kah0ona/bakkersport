@@ -18,3 +18,15 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
   $('.product-gallery-fade-small').fadeIn(1000);
 });
+
+
+jQuery(document).ready(function($) {
+
+  // site preloader -- also uncomment the div in the header and the css style for #preloader
+  $(window).load(function() {
+    $('#preloader').fadeOut('fast', function() {
+      $(this).remove();
+    });
+  });
+
+});

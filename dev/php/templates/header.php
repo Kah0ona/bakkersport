@@ -41,52 +41,6 @@
   </head>
   <body <?php body_class(); ?> >
 
-<!--
-<div id="preloader">
-    <div id="inTurnFadingTextG">
-    <div id="inTurnFadingTextG_1" class="inTurnFadingTextG">
-    J</div>
-    <div id="inTurnFadingTextG_2" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_3" class="inTurnFadingTextG">
-    A</div>
-    <div id="inTurnFadingTextG_4" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_5" class="inTurnFadingTextG">
-    C</div>
-    <div id="inTurnFadingTextG_6" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_7" class="inTurnFadingTextG">
-    O</div>
-    <div id="inTurnFadingTextG_8" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_9" class="inTurnFadingTextG">
-    B</div>
-    <div id="inTurnFadingTextG_10" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_11" class="inTurnFadingTextG">
-    I</div>
-    <div id="inTurnFadingTextG_12" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_13" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_14" class="inTurnFadingTextG">
-    &#039;
-    </div>
-    <div id="inTurnFadingTextG_15" class="inTurnFadingTextG">
-    &nbsp;
-    </div>
-    <div id="inTurnFadingTextG_16" class="inTurnFadingTextG">
-    S</div>
-    </div>
-</div>-->
 
 <header class="header">
 
@@ -136,3 +90,4 @@
       </div>
   </div>
 </header>
+<div id="preloader"></div>

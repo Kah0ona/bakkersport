@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Product-page-3
+Template Name: content-page-2
 */
 ?>
 
@@ -11,25 +11,21 @@ Template Name: Product-page-3
 </div>
 <div class="scheme1-invert merken-2">
 	<div class="u-gridContainer">
-		<a href="/home">HOME</a><a href=""> / </a><a href="">SHOWROOM</a>
+		<a href="/home">HOME</a><a href=""> / </a><a href="" class="u-textShout">
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		 <?php the_title() ?>
+		<?php endwhile; endif; ?></a>
 	</div>
 
 </div>
-<div class="img-menu slideDown">
-	<div class="u-gridContainer">
-		<ul class="tabs">
-			<li rel="tab1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Overstocks</li>
-			<li rel="tab2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Monsterpartijen</li>
-			<li rel="tab3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Pre-Orders</li>
-			<li rel="tab4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Directe Vooraad</li>
-		</ul>
-	</div>
-</div>
-<div class="u-gridContainer marg-product">
+<div class="u-gridContainer">
 		<!--<div clas="u-gridRow" style="height:150px;">
 
 		</div>-->
-	<div class="white-bg">
+	<div clas="u-gridRow">
+
+	</div>
+	<div class="">
 		<div clas="u-gridRow">
 			<div class="u-gridCol5">
 				<div class="white-border marg">
@@ -42,7 +38,7 @@ Template Name: Product-page-3
 				</div>
 			</div>
 			<div class="u-gridCol7">
-				<div class="white-border marg">
+				<div class="white-border marg" style="position:relative;">
 					<div class="Slider">
 
 						<?php
@@ -62,7 +58,7 @@ Template Name: Product-page-3
 									<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 										  $image_url = $image[0];
 									?>
-									<div class="slide" style="">
+									<div class="slide-content" style="">
 										<img src="<?php echo $image_url; ?>" />
 									</div>
 									<?php
@@ -76,5 +72,4 @@ Template Name: Product-page-3
 		</div>
 	</div>
 </div> 
-
 <?php get_footer(); ?>

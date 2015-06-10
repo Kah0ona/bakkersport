@@ -2,8 +2,14 @@
 	background:$c-1;	 
   	color:$c-gold;
   	padding:20px;
- 	background-image: url(../img/pattern.png);
   	position: relative;
+  	z-index: 99999999;
+  	a{
+  		color:white;
+  		&:hover{
+  			color: $c-2;
+  		}
+  	}
 }
 
 // RESPONSIVE FOOTER
@@ -11,7 +17,7 @@
 	@include span-columns(4);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
-	}
+	} 
 }
 
 .Footer-inner {

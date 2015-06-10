@@ -26,7 +26,7 @@ Template Name: Product-page2
 		</ul>
 	</div>
 </div>
-<div class="u-gridContainer">
+<div class="u-gridContainer thumb-container">
 	
 	<div class="tab_container">
 	  <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>

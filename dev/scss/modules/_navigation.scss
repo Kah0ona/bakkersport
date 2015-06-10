@@ -32,7 +32,8 @@
   }
   li{
     border-right:1px solid $c-gold;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top:5px;
     &:first-of-type{
       border-left:1px solid $c-gold;
     }
@@ -40,7 +41,7 @@
 }
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+ // text-decoration: underline;
 }
 
 // -------------------------------------
@@ -65,14 +66,21 @@
   &:last-of-type {
     margin-right: 0;
   }
+  &:hover{
+    background: #b71d21; 
+  }
 }
 
 // ----- Navigation link ----- //
 
 .Navigation-link {
   text-transform: uppercase;
+  
+  
 }
-
+.Navigation-listItem.is-active{
+  background: #b71d21;
+}
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;

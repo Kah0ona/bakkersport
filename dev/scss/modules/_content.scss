@@ -1,5 +1,5 @@
 .merken{
-	padding:30px 0px;
+	padding:20px 0px;
 	border-top: 5px solid white;
 	border-bottom: 5px solid white;
 	-webkit-box-shadow: 0px -5px 5px 0px rgba(148,148,148,1);
@@ -9,7 +9,11 @@
 	z-index:9999;
 	img{
 		width:100%;
+		margin-top: 5px;
 	}
+}
+.thumb-container{
+	min-height:500px;
 }
 .white-border{
 	border:5px solid white;
@@ -63,6 +67,23 @@
 .marg-top{
 	margin-top:100px;
 }
+.marg-bottom{
+	margin-bottom:100px;
+}
+.marg-4{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.marg{	
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.marg-2{	
+	margin-bottom:40px;
+}
+.no-marg{
+	margin:0px;
+}
 .background-gradient{
 	a{
 		color:black;
@@ -113,6 +134,14 @@
 .product-gallery-fade-small{
 	display:none;
 }
+.contact-ul{
+	ul{
+		margin-top:0px;
+	}
+}
+.marg-product{
+	margin:50px 0px;
+}
 .thumb-text{
 	text-align:center;
 	line-height:2;
@@ -130,6 +159,10 @@
 }
 .white-bg{
 	background:rgba(255, 255, 255, 0.7); 
+}
+.white-bg-for-box{
+	background:rgba(255, 255, 255, 1); 
+	padding:20px;
 }
 .product-wrapper{
 	margin-top:50px;

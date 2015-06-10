@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/apple-touch-icon.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -51,9 +51,17 @@
                <a href="/home"> <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a>
             </div>
             <div class="u-gridCol5 head-top">
-                <a href=""><i class="fa fa-phone"></i>&nbsp&nbsp +31 (0) 172234527 &nbsp&nbsp</a>
-                <a href=""><i class="fa fa-envelope"></i>&nbsp&nbsp info@bakkersporttrading.nl</a>
-            </div>
+                <div class="u-objRight">
+                    <a href=""><i class="fa fa-phone"></i>&nbsp&nbsp +31 (0) 172234527 &nbsp&nbsp</a>
+                    <a href=""><i class="fa fa-envelope"></i>&nbsp&nbsp info@bakkersporttrading.nl</a><br>
+                </div>
+                <br><br>
+                <div class="flags">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/nederland-small.jpg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/duitsland.jpg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/eng.jpg">
+                </div>
+            </div> 
 
         </div>
       <div class="Bot-Nav">
@@ -90,4 +98,4 @@
       </div>
   </div>
 </header>
-<div id="preloader"></div>
+<!--<div id="preloader"></div>-->

@@ -3,17 +3,22 @@
 	position:relative;
 	margin-top:-155px;
 }
-
+.slide-content{
+	
+}
 .Slider {
 	visibility: hidden;
+	min-height:534px;
+	max-height:534px;
 }
 /* BX Slider default css */
 /** RESET AND LAYOUT ===================================*/
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto 0px;
-	padding: 0;
+	padding: 0; 
 	*zoom: 1;
+	width: 100%;
 	img{
 		 width: 100%;
 	}
@@ -57,7 +62,7 @@
 	//border:  5px solid #fff;
 	//left: -5px;
 	background: #fff;
-
+	overflow:none;
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);

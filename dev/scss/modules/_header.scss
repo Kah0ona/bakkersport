@@ -4,10 +4,19 @@
 // -> Main site header
 //
 // *************************************
-
+.flags{
+  float:right;
+  img{
+    width: 25px;
+  }
+}
+.dropdown-menu{
+  ul{
+    float:right;
+  }
+}
 .header {
   background:rgba(30, 30, 30, 0.7);
-  background-image: url(../img/pattern.png);
   position: relative;
   z-index: 99999;
 }
@@ -49,8 +58,15 @@
 // ----- Contact bar ----- //
 .head-top{
   float:right;
+  padding-right:40px;
   a{
+
     color:white;
+    font-size: 1.15rem;
+    text-decoration: none;
+    &:hover{
+      color:$c-2;
+    }
   }
 }
 .Header-contact {

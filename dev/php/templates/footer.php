@@ -2,16 +2,16 @@
 <footer class="Footer">
 		<div class="u-gridContainer">
 
-			<div class="u-gridCol4">
-				<a href="/home"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a>
+			<div class="u-gridCol3">
+				<a href="/home"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fav.png"></a>
 				<p>Jac P Thuisseweg 13   |   2408 ER   |   Alphen aan den Rijn</p>
 			</div>
 			<div class="u-gridCol2">
 				<b>Contact</b>
 				<ul>
-					<li>+31 (0) 172234527</li>
-					<li>+31 (0) 172490209</li>
-					<li>info@bakkersporttrading.nl</li> 
+					<li><a href="tel:0172234527">+31 (0) 172234527</a></li>
+					<li><a href="tel:0172490209">+31 (0) 172490209</li>
+					<li><a href="mailto:info@bakkersporttrading.nl">info@bakkersporttrading.nl</a></li> 
 				</ul>
 			</div>
 			<div class="u-gridCol2">
@@ -53,13 +53,12 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-collapse.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bar.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/tabs.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/preload.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-dropdown.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/prepend-svg.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/thumb-click.js"></script>
+
 
   <script src="http://localhost:35729/livereload.js"></script>
   

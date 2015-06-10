@@ -74,7 +74,7 @@ Template Name: Homepage
 </div>
 <div class="scheme1-invert merken">
 	<div class="u-gridContainer">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/merken.png">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/merken2.png">
 	</div>
 
 </div>

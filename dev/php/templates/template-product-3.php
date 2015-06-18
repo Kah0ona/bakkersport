@@ -18,10 +18,10 @@ Template Name: Product-page-3
 <div class="img-menu slideDown">
 	<div class="u-gridContainer">
 		<ul class="tabs">
-			<li rel="tab1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Overstocks</li>
-			<li rel="tab2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Monsterpartijen</li>
-			<li rel="tab3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Pre-Orders</li>
-			<li rel="tab4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Directe Vooraad</li>
+			<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Overstocks</li>
+			<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Monsterpartijen</li>
+			<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Pre-Orders</li>
+			<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/box.png">Directe Vooraad</li>
 		</ul>
 	</div>
 </div>

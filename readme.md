@@ -113,3 +113,26 @@ Note: On Windows, one might want to use Console2 instead of the normal cmd promp
 5. Useful links
 ------------
 - [icomoon.io](http://icomoon.io) 
+
+
+
+TODO
+
+# - kleiner scher mook goed werkend
+# - lettertypes!
+# - checken of hoogte van over ons blok (e.a.) automatisch de hoogte pakt (dit moet WEL)
+# - lege enters weghalen
+# - buttons niet clickable  op assortiment, gewoon ter info
+# - evt. andere plaatjes erin
+#- kaartje hoger maken op contact page
+#- email etc clickable op contact page
+#- uitlijnen verticaal op contact
+# - Foto's zelf instelbaar per page maken
+# - Pages 'contact' doorlinken in de text
+# - App page uit de NAV.
+# - Vertaalsysteem integreren
+# - footer adres naar rechts, en dan logo mooier links
+# - mobiel header strak trekken
+# - mobiel footer naar links.
+
+

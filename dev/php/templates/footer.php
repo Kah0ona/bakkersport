@@ -3,12 +3,16 @@
 		<div class="u-gridContainer">
 
 			<div class="u-gridCol3">
-				<a href="/home"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fav.png"></a>
-				<p>Jac P Thuisseweg 13   |   2408 ER   |   Alphen aan den Rijn</p>
+				<br/><br/>
+				<a href="/home"> 
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+				</a>
 			</div>
 			<div class="u-gridCol2">
 				<b>Contact</b>
 				<ul>
+					<li>Jac P Thuisseweg 13</li>
+					<li>2408 ER&nbsp;&nbsp;Alphen aan den Rijn</li>
 					<li><a href="tel:0172234527">+31 (0) 172234527</a></li>
 					<li><a href="tel:0172490209">+31 (0) 172490209</li>
 					<li><a href="mailto:info@bakkersporttrading.nl">info@bakkersporttrading.nl</a></li> 
@@ -22,8 +26,10 @@
 				</ul>
 			</div>
 			<div class="u-gridCol2 social">
-				<b>Onze App</b><br>
+				<b>Onze App</b><br/><br/>
+				<a href="#">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/play.png">
+				</a>
 			</div>
 			<div class="u-gridCol2" style="margin-right:0px;">
 				<b>Sitemap</b>

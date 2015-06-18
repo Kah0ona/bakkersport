@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title>Bakkersport</title>
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
     <!-- build:remove:compressed -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.css">
     <!-- /build -->
-    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <!-- build:remove:compressed -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
@@ -50,16 +50,11 @@
             <div class="u-gridCol5 show-for-large">
                <a href="/home"> <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a>
             </div>
-            <div class="u-gridCol5 head-top">
+            <div class="u-gridCol5 head-top hide-on-mobile">
                 <div class="u-objRight">
-                    <a href=""><i class="fa fa-phone"></i>&nbsp&nbsp +31 (0) 172234527 &nbsp&nbsp</a>
-                    <a href=""><i class="fa fa-envelope"></i>&nbsp&nbsp info@bakkersporttrading.nl</a><br>
-                </div>
-                <br><br>
-                <div class="flags">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/nederland-small.jpg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/duitsland.jpg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/eng.jpg">
+                    <a href="tel:0172234527"><i class="fa fa-phone"></i>&nbsp;&nbsp; +31 (0) 172-234527 </a><br/>
+                    <a href="mailto:info@bakkersporttrading.nl"><i class="fa fa-envelope"></i>&nbsp;&nbsp; info@bakkersporttrading.nl</a><br/>
+					<?php do_action('icl_language_selector'); ?>
                 </div>
             </div> 
 
@@ -74,7 +69,7 @@
         </div>
     	<div class="u-gridRow">
                 
-                <div class="u-gridCol6 dropdown-menu" style="float:right;"> 
+                <div class="u-gridCol7 dropdown-menu" style="float:right;"> 
             		  <?php include 'includes/navigation.php'; ?>
             	</div> 
                 

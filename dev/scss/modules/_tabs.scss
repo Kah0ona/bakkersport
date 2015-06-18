@@ -10,7 +10,7 @@ ul.tabs {
 ul.tabs li {
     float: left;
     margin: 0;
-    cursor: pointer;
+//    cursor: pointer;
     padding: 0px 21px;
     line-height: 31px;
     color: #ccc;
@@ -27,7 +27,7 @@ ul.tabs li {
 
 ul.tabs li:hover {
     //background-color: #ccc;
-    color: #333;
+//    color: #333;
 }
 
 ul.tabs li.active {

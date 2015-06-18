@@ -17,7 +17,7 @@ Template Name: Contactpage
 		<div class="u-gridCol5">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<h2><?php the_title() ?></h2>
-			<p>Wilt u contact opnemen?<br> Vul hieronder het formulier in en wij laten zo spoedig mogelijk van ons horen.</p>
+			<p>Wilt u contact?<br> Vul hieronder het formulier in en wij laten zo spoedig mogelijk van ons horen.</p>
 		</div>
 		<div class="u-gridCol7">
 			
@@ -33,9 +33,9 @@ Template Name: Contactpage
 				</div>
 				<div class="u-gridCol6 contact-ul">
 					<ul>
-						<li>Email: info@bakkersporttrading.nl</li>
-						<li>Tel: +31 (0) 172234527</li>
-						<li>Fax: +31 (0) 172490209</li>
+						<li>Email: <a href="mailto:info@bakkersporttrading.nl">info@bakkersporttrading.nl</a></li>
+						<li>Tel:   <a href="tel:0172234527">+31 (0) 172234527</a></li>
+						<li>Fax:   <a href="tel:0172490209">+31 (0) 172490209</a></li>
 					</ul>
 				</div>
 			</div>
